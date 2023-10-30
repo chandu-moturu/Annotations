@@ -1,0 +1,51 @@
+#root {
+  width: 80%;
+  height: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: black;
+}
+
+
+.main__container{
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  background-color:rgb(244, 244, 244);
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px aquamarine;
+
+}
+
+.file__input{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  flex-grow: 1;
+  height: 200px;
+  border-style: dashed;
+  border-color: black;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px #1dab6e;
+}
+
+.file__input img{
+  width: 40px;
+}
+
+.file__input input{
+  display: none;
+}
+
+.download__btn{
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: none;
+}
